@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artista Gráfico - Página Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2em 0;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        .section p {
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Artista Gráfico</h1>
+    </header>
+
+    <div class="container">
+        <section class="section" id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Hola, soy un artista gráfico apasionado por el diseño y la creatividad. Me especializo en crear obras visuales que comunican ideas y emociones de manera efectiva.</p>
+        </section>
+
+        <section class="section" id="educacion">
+            <h2>Educación</h2>
+            <p>Mi formación académica incluye estudios en diseño gráfico y bellas artes. He asistido a varias instituciones reconocidas donde he perfeccionado mis habilidades y técnicas.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Artista Gráfico. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
